@@ -1,0 +1,5 @@
+sample_text = {
+    "../data/postgresInfo.txt": """
+PostgreSQL is a powerful, open-source object-relational database system known for its reliability and feature set. It supports advanced data types, full ACID compliance, and extensibility through custom functions and plugins. PostgreSQL is widely used for web applications, analytics, and data warehousing. It offers features like JSON support, indexing, and concurrency control, making it a popular choice among developers and enterprises.
+    """
+}

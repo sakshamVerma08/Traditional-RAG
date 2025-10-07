@@ -1,0 +1,5 @@
+sample_text = {
+    "../data/basicInfo.txt": """
+Hi, I'm passionate about backend development and love working as a fullstack developer. Recently, I've been diving into the world of AI agents, exploring how they can transform modern applications. I'm also planning to learn Docker and Kubernetes to enhance my skills in containerization and orchestration. In my free time, I enjoy reading novels, which helps me unwind and sparks my creativity.
+    """
+}
