@@ -4,6 +4,7 @@ This project is a custom implementation of a complete **Retrieval-Augmented Gene
 
 ---
 
+
 ## The RAG Pipeline Thought Process: A Step-by-Step Breakdown
 
 The RAG pipeline is conceptually divided into two main parts: the **Data Ingestion Pipeline** and the **Query Retrieval Pipeline**. The notebook, `pdf_loader.ipynb`, implements the code for each of these steps.
