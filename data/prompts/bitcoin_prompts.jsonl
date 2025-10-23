@@ -1,4 +1,3 @@
-{"id":1, "query":"What problem does Bitcoin aim to solve according to the whitepaper?"};
-{"id":2,"query":"What is a timestamp server and why is it needed?"};
-{"id":3,"query":"What does the ‘Network’ section describe?"}
-{"id":4,"query":"Where is the phrase ‘proof-of-work’ first introduced and in what context?"};
+{"id":1, "query":"What is the purpose of the hash-based proof-of-work chain, and what does the longest chain represent in the network?"};
+{"id":2,"query":"Describe how the network mitigates the need for a trusted third party to solve the double-spending problem."};
+{"id":3,"query":"According to the paper, what is the minimal amount of structure required by the Bitcoin network? 6"}
