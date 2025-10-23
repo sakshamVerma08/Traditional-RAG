@@ -1,0 +1,39 @@
+# Python / environment
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache
+
+# Virtualenvs / local build artifacts
+venv/
+.env
+.env.* 
+.envrc
+.venv/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Docker
+docker-compose*.yml
+
+# Data and large files (if you mount them at runtime)
+data/
+*.sqlite3
+*.db
+
+# Notebook checkpoints or heavy files
+.ipynb_checkpoints
+*.ipynb
+
+# Anything else you don't want in the image
+*.log
