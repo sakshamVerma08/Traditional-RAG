@@ -27,7 +27,7 @@ Thumbs.db
 docker-compose*.yml
 
 # Data and large files (if you mount them at runtime)
-data/
+data/vector_store/
 *.sqlite3
 *.db
 

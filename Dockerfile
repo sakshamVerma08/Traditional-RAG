@@ -28,7 +28,7 @@ RUN apt-get update && \
 
 # Creating a Virtual Env inside the Builder image and upgrading the pip
 RUN python -m venv ${VENV_PATH}
-ENV PATH = "${VENV_PATH}/bin:$PATH"
+ENV PATH="${VENV_PATH}/bin:$PATH"
 RUN pip install --upgrade pip setuptools wheel 
 
 
@@ -64,14 +64,13 @@ COPY --from=builder /opt/venv /opt/venv
 
 # Ensure venv bin is first on PATH
 
-ENV PATH = "/opt/venv/bin:$PATH" \
+ENV PATH="/opt/venv/bin:$PATH" \
     PYTHONUNBUFFERED=1
 
 
 # Copy only what's needed for runtime
 
 COPY Notebook/ ./Notebook
-COPY README.md .
 COPY main.py .
 COPY data/pdf_files/ ./data/pdf_files/
 
